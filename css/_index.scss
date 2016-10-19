@@ -1,9 +1,12 @@
-@import "_normalize";
+@import "vendors/normalize";
+@import "vendors/index";
 
-@import "_variables";
-@import "_reset";
+@import "variables";
+@import "mixins";
 
-@import "markdown";
+@import "reset";
+@import "base";
 
-@import "/components/_index";
-@import "/pages/_index";
+@import "components/index";
+@import "pages/index";
+

@@ -2,7 +2,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
   position: relative;
   padding: 0;
@@ -12,3 +14,4 @@ html {
 body {
   box-sizing: border-box;
 }
+

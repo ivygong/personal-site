@@ -1,6 +1,4 @@
-# Gatsby Boilerplate
+# International Relations Council at Berkeley Website
 
-Learning React...
+By [Innovative Design](http://innovativedesign.club)
 
-Thanks [GatsbyJS](https://github.com/gatsbyjs/gatsby) and 
-[Christian Le](https://github.com/cle1994)

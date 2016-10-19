@@ -1,1 +1,0 @@
-exports.onRouteChange = function(location) {}

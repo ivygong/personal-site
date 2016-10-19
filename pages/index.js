@@ -1,5 +1,7 @@
-import React from 'react';
-import DocumentTitle from 'react-document-title';
+import React, { Component } from 'react';
+import Helmet from 'react-helmet';
+import { config } from 'config';
+import { Link } from 'react-router';
 import { prefixLink } from 'gatsby-helpers';
 
 import $ from 'jquery';
@@ -49,15 +51,17 @@ export default class Index extends React.Component {
     });
 
     return (
-      <DocumentTitle title="Innovative Design">
-        <div>
-          <div className="page__wrapper home">
-            <div className="repeating">
-              { peopleElements }
-            </div>
-          </div>
+      <div className="page page--about">
+        <Helmet
+          title={config.siteTitle}
+        />
+        <h1>
+          Home
+        </h1>
+        <div className="repeating">
+          { peopleElements }
         </div>
-      </DocumentTitle>
+      </div>
     );
   }
 }
