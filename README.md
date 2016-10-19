@@ -1,4 +1,1 @@
-# International Relations Council at Berkeley Website
-
-By [Innovative Design](http://innovativedesign.club)
-
+Site boilerplate using Gatsby, with a few modifications from default
