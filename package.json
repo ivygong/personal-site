@@ -1,8 +1,8 @@
 {
-  "name": "IRC by Innovative Design",
-  "description": "IRC designed and developed by Innovative Design of Berkeley",
+  "name": "boilerplate",
+  "description": "gatsby boilerplate",
   "version": "1.0.0",
-  "author": "Innovative Design <innovativedesignatcal@gmail.com>",
+  "author": "author",
   "dependencies": {
     "classnames": "^2.2.5",
     "front-matter": "^2.0.7",
