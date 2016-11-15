@@ -17,20 +17,17 @@ export default class Index extends React.Component {
   render () {
     const data = [
       {
-        name: 'Christian Kitty',
-        title: 'Senior Executive Advisor'
+        name: 'San Diego World Affairs Council',
+        title: 'http://sdwac.org/',
+        url: '/img/hcc-portfolio.jpg'
       },
       {
-        name: 'Julia Kitty',
-        title: 'Kitty'
+        name: 'Hamilton College Consulting',
+        title: 'http://www.hamiltoncollegeconsulting.com/'
       },
       {
-        name: 'Cow Kitty',
-        title: 'Cow'
-      },
-      {
-        name: 'Bunny Kitty',
-        title: 'Bunny'
+        name: 'A Week in the Wizarding World',
+        title: 'http://www.hpsummercamp.com/'
       }
     ];
 
@@ -40,12 +37,20 @@ export default class Index extends React.Component {
           key={ `personElem-${index}` }
           className="person__wrapper"
         >
-          <h1>
-            { person.name }
-          </h1>
-          <h3>
-            { person.title }
-          </h3>
+          <div className="col">
+            <div className="col col--1">
+            <h1>
+              { person.name }
+            </h1>
+            </div>
+
+            <div className="col col--2">
+            <h3>
+              { person.title }
+            </h3>
+            </div>
+          </div>
+
         </div>
       );
     });
@@ -55,9 +60,11 @@ export default class Index extends React.Component {
         <Helmet
           title={config.siteTitle}
         />
-        <h1>
-          Home
-        </h1>
+        <div className="home__content">
+          <div className="home__title">
+            Welcome!
+          </div>
+        </div>
         <div className="repeating">
           { peopleElements }
         </div>
