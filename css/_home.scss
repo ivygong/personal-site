@@ -1,28 +1,7 @@
-.person__wrapper {
-  background:red;
-  display:table;
-  margin: 0 auto;
-
-  .col {
-    display:inline-block;
-    background:orange;
-    width:1000px;
-    margin: 0 auto;
-
-    &.col--1 {
-      color:blue;
-      width:28%;
-    }
-
-    &.col--2 {
-      color:green;
-      width:70%;
-    }
-  }
-}
+//Home
 
 .headroom-wrapper {
-  background:#8b1637;
+  background:white;
   height:auto;
 
   .navbar {
@@ -31,45 +10,55 @@
     display:table;
     margin: 0 auto;
 
-    .navbar__link--wrapper {
-      background:none;
-      display:inline-block;
-      text-align:center;
-      padding: 25px 0px;
-
-      a {
-        text-decoration:none;
-        text-transform:uppercase;
-        color:white;
-        font-size:20px;
-        padding:25px 40px;
-      }
-
-      &:hover {
-        background: white;
-        -o-transition: background .2s;
-        -ms-transition: background .2s;
-        -moz-transition: background .2s;
-        -webkit-transition: background .2s;
+      .navbar__link--wrapper {
+        background:none;
+        display:inline-block;
+        text-align:center;
+        padding: 25px 0px;
 
         a {
-          color: lighten(#8b1637, 25%);
+          text-decoration:none;
+          text-transform:uppercase;
+          color:$c__theme;
+          font-size:20px;
+          padding:25px 40px;
+          font-family:'Raleway';
+        }
+
+        &:hover {
+          background: $c__theme;
           -o-transition: background .2s;
           -ms-transition: background .2s;
           -moz-transition: background .2s;
           -webkit-transition: background .2s;
+
+          a {
+            color: lighten(white, 25%);
+            -o-transition: background .2s;
+            -ms-transition: background .2s;
+            -moz-transition: background .2s;
+            -webkit-transition: background .2s;
+          }
+        }
+
+        img {
+          width:100%;
+          height:73px;
+          margin:-25px -40px;
+          position:absolute;
         }
       }
-    }
   }
 }
 
 .home__content {
-  padding:50px;
+  padding-top:100px;
 
   .home__title{
     font-size:50px;
     text-align:center;
+    font-family:$f__title;
+
   }
 }
 

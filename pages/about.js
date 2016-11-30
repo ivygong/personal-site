@@ -15,6 +15,12 @@ export default class About extends Component {
           <div className="about__title">
             About
           </div>
+          <div className="about__section">
+            <div className="about__image">
+              <img src={prefixLink('/img/aboutpicture.jpg')}/>
+            </div>
+            <div className="about__summary">Hi. I'm Ivy.</div>
+          </div>
         </div>
       </div>
     );
