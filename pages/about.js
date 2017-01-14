@@ -27,7 +27,7 @@ export default class About extends Component {
                     Resume
                   </div>
                 </a>
-                <a href="https://www.google.com">
+                <a href="https://www.linkedin.com/in/ivy-gong-802816132" target="_blank">
                   <div className="about__link--block">
                     LinkedIn
                   </div>
@@ -37,7 +37,7 @@ export default class About extends Component {
                     Email
                   </div>
                 </a>
-                <a href="https://github.com/ivygong">
+                <a href="https://github.com/ivygong" target="_blank">
                   <div className="about__link--block">
                     Github
                   </div>
